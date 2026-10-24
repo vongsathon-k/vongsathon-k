@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1760" height="990" viewBox="0 0 1760 990">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7dd3fc"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      text { font-family: "JetBrains Mono", "SF Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace; }
+      .wall text { font-size: 16.5px; }
+      .bg { fill: #36322d; }
+      .hi { fill: url(#g); font-weight: 700; }
+      .cream { fill: #efe9df; }
+      .dim { fill: #8a847a; }
+    </style>
+  </defs>
+  <rect width="1760" height="990" fill="#0f0d0b"/>
+  <text x="44" y="52" class="dim" font-size="18">~/vongsathon-k</text>
+  <g class="wall">
+<text x="44" y="100" xml:space="preserve" textLength="832"><tspan class="bg">import { db } from &quot;@/lib/db&quot;; export async function GET(req) { const { searchParams</tspan></text>
+<text x="44" y="128" xml:space="preserve" textLength="832"><tspan class="bg"> } = new URL(req.url); const page = Number(searchParams.get(&quot;page&quot;) ?? 1); const row</tspan></text>
+<text x="44" y="155" xml:space="preserve" textLength="832"><tspan class="bg">s = await db.query(&quot;SELECT * FROM meetings WHERE room_id = ? AND date = ?&quot;, [roomId,</tspan></text>
+<text x="44" y="182" xml:space="preserve" textLength="832"><tspan class="bg"> date]); if (!rows.le</tspan><tspan class="hi">ngth)·return·Response.json({·free:·true·})</tspan><tspan class="bg">; &lt;?php $stmt = $pdo-</tspan></text>
+<text x="44" y="210" xml:space="preserve" textLength="832"><tspan class="bg">&gt;prepare(&quot;INSERT INTO</tspan><tspan class="hi">·leave_requests·(user_id,·start,·end)·VALUES·(?</tspan><tspan class="bg">, ?, ?)&quot;); $stmt</tspan></text>
+<text x="44" y="238" xml:space="preserve" textLength="832"><tspan class="bg">-&gt;execute([$uid, $st</tspan><tspan class="hi">art,·$end]);·def·answer(question):·docs·=·retriever</tspan><tspan class="bg">.search(quest</tspan></text>
+<text x="44" y="265" xml:space="preserve" textLength="832"><tspan class="bg">ion, k=4); return l</tspan><tspan class="hi">lm.chat(system=PROMPT,·context=docs,·user=question)·co</tspan><tspan class="bg">nst [open, </tspan></text>
+<text x="44" y="292" xml:space="preserve" textLength="832"><tspan class="bg">setOpen] = useState</tspan><tspan class="hi">(false);·expor</tspan><tspan class="bg">t default function Page(</tspan><tspan class="hi">)·{·return·&lt;Layou</tspan><tspan class="bg">t&gt;&lt;Contrac</tspan></text>
+<text x="44" y="320" xml:space="preserve" textLength="832"><tspan class="bg">tTable data={contr</tspan><tspan class="hi">acts}·/&gt;&lt;/Layou</tspan><tspan class="bg">t&gt; } if (!session) redirec</tspan><tspan class="hi">t(&quot;/login&quot;);·co</tspan><tspan class="bg">nst certif</tspan></text>
+<text x="44" y="348" xml:space="preserve" textLength="832"><tspan class="bg">icate = await pris</tspan><tspan class="hi">ma.certificate</tspan><tspan class="bg">.findUnique({ where: { id } </tspan><tspan class="hi">});·router.pos</tspan><tspan class="bg">t(&quot;/donati</tspan></text>
+<text x="44" y="375" xml:space="preserve" textLength="832"><tspan class="bg">on&quot;, validate(sch</tspan><tspan class="hi">ema),·async·(r</tspan><tspan class="bg">eq, res) =&gt; { const tx = awa</tspan><tspan class="hi">it·db.transact</tspan><tspan class="bg">ion(); }); </tspan></text>
+<text x="44" y="402" xml:space="preserve" textLength="832"><tspan class="bg">SELECT d.name, CO</tspan><tspan class="hi">UNT(*)·AS·case</tspan><tspan class="bg">s FROM documents d JOIN st</tspan><tspan class="hi">eps·s·ON·s.doc_</tspan><tspan class="bg">id = d.id GR</tspan></text>
+<text x="44" y="430" xml:space="preserve" textLength="832"><tspan class="bg">OUP BY d.name; f</tspan><tspan class="hi">lood·=·pd.read_</tspan><tspan class="bg">csv(&quot;hatyai.csv&quot;); </tspan><tspan class="hi">alert·=·flood[flood.</tspan><tspan class="bg">level &gt; THRESH</tspan></text>
+<text x="44" y="458" xml:space="preserve" textLength="832"><tspan class="bg">OLD] const { dat</tspan><tspan class="hi">a,·error·}·=·useSWR(`/api/ptd/${id}`,·fetcher);·if</tspan><tspan class="bg"> (error) return &lt;E</tspan></text>
+<text x="44" y="485" xml:space="preserve" textLength="832"><tspan class="bg">rrorState retry</tspan><tspan class="hi">={mutate}·/&gt;;·Route::middleware(&quot;auth&quot;)-&gt;group(</tspan><tspan class="bg">function () { Route::r</tspan></text>
+<text x="44" y="512" xml:space="preserve" textLength="832"><tspan class="bg">esource(&quot;rooms&quot;</tspan><tspan class="hi">,·RoomController::class);·});·CREATE·INDEX·idx_meet</tspan><tspan class="bg">ing_room_date ON m</tspan></text>
+<text x="44" y="540" xml:space="preserve" textLength="832"><tspan class="bg">eetings (room_</tspan><tspan class="hi">id,·date);·--·2</tspan><tspan class="bg">.4s to 18ms, nobo</tspan><tspan class="hi">dy·noticed,·fine·const·</tspan><tspan class="bg">chain = docs.re</tspan></text>
+<text x="44" y="568" xml:space="preserve" textLength="832"><tspan class="bg">duce((prev, d</tspan><tspan class="hi">)·=&gt;·hash(prev·</tspan><tspan class="bg">+ d.content), GENESIS); if </tspan><tspan class="hi">(chain·!==·store</tspan><tspan class="bg">d) throw new </tspan></text>
+<text x="44" y="595" xml:space="preserve" textLength="832"><tspan class="bg">Error(&quot;tamper</tspan><tspan class="hi">ed&quot;);·try·{·aw</tspan><tspan class="bg">ait save(form); toast.success(</tspan><tspan class="hi">&quot;saved&quot;)·}·catc</tspan><tspan class="bg">h (e) { toas</tspan></text>
+<text x="44" y="622" xml:space="preserve" textLength="832"><tspan class="bg">t.error(e.me</tspan><tspan class="hi">ssage)·}·finall</tspan><tspan class="bg">y { done() } const leaveDays = </tspan><tspan class="hi">businessDaysBe</tspan><tspan class="bg">tween(start,</tspan></text>
+<text x="44" y="650" xml:space="preserve" textLength="832"><tspan class="bg"> end, holida</tspan><tspan class="hi">ys);·if·(leave</tspan><tspan class="bg">Days &gt; balance) return reject();</tspan><tspan class="hi">·UPDATE·cases·</tspan><tspan class="bg">SET status =</tspan></text>
+<text x="44" y="678" xml:space="preserve" textLength="832"><tspan class="bg"> &#x27;closed&#x27;, </tspan><tspan class="hi">closed_at·=·NOW</tspan><tspan class="bg">() WHERE id = ? AND status = &#x27;</tspan><tspan class="hi">review&#x27;·LIMIT·1;</tspan><tspan class="bg"> git push -u</tspan></text>
+<text x="44" y="705" xml:space="preserve" textLength="832"><tspan class="bg"> origin mai</tspan><tspan class="hi">n·#·works·on·m</tspan><tspan class="bg">y machine and, more importan</tspan><tspan class="hi">tly,·on·the·server</tspan><tspan class="bg"> const qr = a</tspan></text>
+<text x="44" y="732" xml:space="preserve" textLength="832"><tspan class="bg">wait QRCod</tspan><tspan class="hi">e.toDataURL(url);·pdf.addImage(qr,·&quot;PNG&quot;,·160,·250,·32,·32)</tspan><tspan class="bg">; pdf.save(&quot;cer</tspan></text>
+<text x="44" y="760" xml:space="preserve" textLength="832"><tspan class="bg">t.pdf&quot;);  </tspan><tspan class="hi">import·{·db·}·from·&quot;@/lib/db&quot;;·export·async·function·GET(</tspan><tspan class="bg">req) { const { se</tspan></text>
+<text x="44" y="788" xml:space="preserve" textLength="832"><tspan class="bg">archParam</tspan><tspan class="hi">s·}·=·new·URL(req.url);·const·page·=·Number(searchPara</tspan><tspan class="bg">ms.get(&quot;page&quot;) ?? 1);</tspan></text>
+<text x="44" y="815" xml:space="preserve" textLength="832"><tspan class="bg"> const ro</tspan><tspan class="hi">ws·=·await·db.query(&quot;SELECT·*·FROM·meetings·WHER</tspan><tspan class="bg">E room_id = ? AND date = ?&quot;</tspan></text>
+<text x="44" y="842" xml:space="preserve" textLength="832"><tspan class="bg">, [roomId, date]); if (!rows.length) return Response.json({ free: true }); &lt;?php $st</tspan></text>
+<text x="44" y="870" xml:space="preserve" textLength="832"><tspan class="bg">mt = $pdo-&gt;prepare(&quot;INSERT INTO leave_requests (user_id, start, end) VALUES (?, ?, ?</tspan></text>
+<text x="44" y="898" xml:space="preserve" textLength="832"><tspan class="bg">)&quot;); $stmt-&gt;execute([$uid, $start, $end]); def answer(question): docs = retriever.se</tspan></text>
+  </g>
+
+  <circle cx="954" cy="186" r="8" fill="#c084fc"/>
+  <text x="978" y="194" class="dim" font-size="24" font-weight="700" letter-spacing="4">NOW SHIPPING</text>
+  <text x="944" y="350" class="cream" font-size="132" font-weight="800">Boat</text>
+  <text x="1300" y="350" font-size="132" font-weight="800" fill="url(#g)" filter="url(#glow)">.dev</text>
+  <text x="948" y="420" class="cream" font-size="34">Full-stack. Gov-tech. Thailand.</text>
+
+  <text x="946" y="530" class="cream" font-size="52" font-weight="800">33</text>
+  <text x="946" y="572" class="dim" font-size="20">repos</text>
+  <text x="1100" y="530" class="cream" font-size="52" font-weight="800">21</text>
+  <text x="1100" y="572" class="dim" font-size="20">gov systems</text>
+  <text x="1290" y="530" class="cream" font-size="52" font-weight="800">4</text>
+  <text x="1290" y="572" class="dim" font-size="20">languages</text>
+  <text x="1440" y="530" class="cream" font-size="52" font-weight="800">1</text>
+  <text x="1440" y="572" class="dim" font-size="20">mobile app</text>
+
+  <text x="948" y="692" class="dim" font-size="34" font-style="italic">And yet</text>
+  <text x="1110" y="700" class="cream" font-size="84" font-weight="800" filter="url(#glow)">0</text>
+  <text x="948" y="756" class="cream" font-size="30">lines more than the task needs.</text>
+  <text x="948" y="792" class="dim" font-size="22">That's the goal, anyway.</text>
+
+  <text x="946" y="930" class="dim" font-size="20">Next.js · TypeScript · PHP · Python</text>
+</svg>
